@@ -7,15 +7,26 @@
 
 import SwiftUI
 
+enum Tab {
+    case lunch, lottery
+}
+
 struct ContentView: View {
+    @State private var selectedTab = Tab.lunch
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            LunchDrawer()
+                .tabItem {
+                    Label("Lunch", systemImage: "takeoutbag.and.cup.and.straw")
+                }
+                .tag(Tab.lunch)
+            LotteryDrawer()
+                .tabItem {
+                    Label("Lottery", systemImage: "dollarsign.circle.fill")
+                }
+                .tag(Tab.lottery)
         }
-        .padding()
     }
 }
 
