@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C92CE63A2921A0C6009BA413 /* LunchDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE6392921A0C6009BA413 /* LunchDrawer.swift */; };
 		C92CE63C2921A0DA009BA413 /* LotteryDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE63B2921A0DA009BA413 /* LotteryDrawer.swift */; };
+		C92CE63F2921A2F1009BA413 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE63E2921A2F1009BA413 /* Option.swift */; };
 		C9DE0FB029219AE30007AD5A /* LotDrawerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE0FAF29219AE30007AD5A /* LotDrawerApp.swift */; };
 		C9DE0FB229219AE30007AD5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE0FB129219AE30007AD5A /* ContentView.swift */; };
 		C9DE0FB429219AE40007AD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DE0FB329219AE40007AD5A /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		C92CE6392921A0C6009BA413 /* LunchDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchDrawer.swift; sourceTree = "<group>"; };
 		C92CE63B2921A0DA009BA413 /* LotteryDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryDrawer.swift; sourceTree = "<group>"; };
+		C92CE63E2921A2F1009BA413 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		C9DE0FAC29219AE30007AD5A /* LotDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE0FAF29219AE30007AD5A /* LotDrawerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotDrawerApp.swift; sourceTree = "<group>"; };
 		C9DE0FB129219AE30007AD5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92CE63D2921A2E3009BA413 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C92CE63E2921A2F1009BA413 /* Option.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C9DE0FA329219AE30007AD5A = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +108,7 @@
 		C9DE0FAE29219AE30007AD5A /* LotDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				C92CE63D2921A2E3009BA413 /* Model */,
 				C9DE0FD929219B010007AD5A /* Views */,
 				C9DE0FAF29219AE30007AD5A /* LotDrawerApp.swift */,
 				C9DE0FB129219AE30007AD5A /* ContentView.swift */,
@@ -273,6 +284,7 @@
 			files = (
 				C9DE0FB229219AE30007AD5A /* ContentView.swift in Sources */,
 				C9DE0FB029219AE30007AD5A /* LotDrawerApp.swift in Sources */,
+				C92CE63F2921A2F1009BA413 /* Option.swift in Sources */,
 				C92CE63C2921A0DA009BA413 /* LotteryDrawer.swift in Sources */,
 				C92CE63A2921A0C6009BA413 /* LunchDrawer.swift in Sources */,
 			);
