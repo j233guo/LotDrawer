@@ -9,7 +9,22 @@ import SwiftUI
 
 struct LotteryDrawer: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                NavigationLink {
+                    Drawer649()
+                } label: {
+                    Text("649")
+                }
+                NavigationLink {
+                    DrawerLottoMax()
+                } label: {
+                    Text("Lotto Max")
+                }
+            }
+            .navigationTitle("Lottery Pickers")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
