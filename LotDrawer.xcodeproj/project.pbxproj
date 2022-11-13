@@ -12,6 +12,8 @@
 		C92CE63F2921A2F1009BA413 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE63E2921A2F1009BA413 /* Option.swift */; };
 		C92CE6422921A42A009BA413 /* Drawer649.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE6412921A42A009BA413 /* Drawer649.swift */; };
 		C92CE6442921A451009BA413 /* DrawerLottoMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE6432921A451009BA413 /* DrawerLottoMax.swift */; };
+		C92CE6462921A50B009BA413 /* DrawButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE6452921A50B009BA413 /* DrawButtonLabel.swift */; };
+		C92CE64A2921A5A3009BA413 /* DrawNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92CE6492921A5A3009BA413 /* DrawNumberLabel.swift */; };
 		C9DE0FB029219AE30007AD5A /* LotDrawerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE0FAF29219AE30007AD5A /* LotDrawerApp.swift */; };
 		C9DE0FB229219AE30007AD5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE0FB129219AE30007AD5A /* ContentView.swift */; };
 		C9DE0FB429219AE40007AD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DE0FB329219AE40007AD5A /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		C92CE63E2921A2F1009BA413 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 		C92CE6412921A42A009BA413 /* Drawer649.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawer649.swift; sourceTree = "<group>"; };
 		C92CE6432921A451009BA413 /* DrawerLottoMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerLottoMax.swift; sourceTree = "<group>"; };
+		C92CE6452921A50B009BA413 /* DrawButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawButtonLabel.swift; sourceTree = "<group>"; };
+		C92CE6492921A5A3009BA413 /* DrawNumberLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawNumberLabel.swift; sourceTree = "<group>"; };
 		C9DE0FAC29219AE30007AD5A /* LotDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE0FAF29219AE30007AD5A /* LotDrawerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotDrawerApp.swift; sourceTree = "<group>"; };
 		C9DE0FB129219AE30007AD5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		C92CE6402921A3FA009BA413 /* ViewElements */ = {
 			isa = PBXGroup;
 			children = (
+				C92CE6452921A50B009BA413 /* DrawButtonLabel.swift */,
+				C92CE6492921A5A3009BA413 /* DrawNumberLabel.swift */,
 			);
 			path = ViewElements;
 			sourceTree = "<group>";
@@ -298,10 +304,12 @@
 			files = (
 				C9DE0FB229219AE30007AD5A /* ContentView.swift in Sources */,
 				C9DE0FB029219AE30007AD5A /* LotDrawerApp.swift in Sources */,
+				C92CE6462921A50B009BA413 /* DrawButtonLabel.swift in Sources */,
 				C92CE6442921A451009BA413 /* DrawerLottoMax.swift in Sources */,
 				C92CE63F2921A2F1009BA413 /* Option.swift in Sources */,
 				C92CE63C2921A0DA009BA413 /* LotteryDrawer.swift in Sources */,
 				C92CE6422921A42A009BA413 /* Drawer649.swift in Sources */,
+				C92CE64A2921A5A3009BA413 /* DrawNumberLabel.swift in Sources */,
 				C92CE63A2921A0C6009BA413 /* LunchDrawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
